@@ -6,6 +6,7 @@ SUBNET=$2
 NETWORK=$3
 SITE=$4
 ConfigName=$5
+TEST=$6
 
 # Write the file the contains the plugged-in values
 cat <<EOT > ~/$ConfigName
